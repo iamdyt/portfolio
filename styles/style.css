@@ -15,3 +15,7 @@ a{
     font-size: 1.3rem !important;
     text-align:justify ;
 }
+a:active,a:hover,a:visited{
+    background-color: #021f25 !important;
+    color:whitesmoke !important;
+}
