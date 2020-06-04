@@ -1,0 +1,17 @@
+body{
+    background-color: #fce8cf;
+    color: #005062;
+    font-size: 1.2rem;
+    font-family: 'quicksand';
+}
+
+a{
+    color:#021f25 !important ;
+}
+.nav-link{
+    font-family: 'rubik' !important;
+}
+.cnt{
+    font-size: 1.3rem !important;
+    text-align:justify ;
+}
