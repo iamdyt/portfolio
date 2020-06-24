@@ -4,91 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/dist/css/butterCake.min.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/tailwind.minn.css">
     <link rel="apple-touch-icon" sizes="180x180" href="svgs/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="svgs/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="svgs/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&amp;family=Quicksand:wght@300&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     <title>iamdyt/Software Developer</title>
 </head>
-<body >
-    <header class="">
-    <!-- DEFAULT WHITE NAVBAR -->
-        <nav class="navbar expand-lg default-nav">
-        <div class="container-fluid">
+<style>
+  *{
+    font-family: "lato", sans-serif;
+  }
+</style>
+<body class="">
+    <header class="container mx-auto px-4 lg:px-32 flex mt-8 flex-wrap justify-between">
+      <div class="text-center w-full lg:w-1/2 "><h5 class="font-bold uppercase text-3xl text-teal-900">Lanre Olanlokun</h5></div>
+      <div class="mx-auto text-blue-400">
+        <nav class="mt-4">
+          <a href="">RESUME</a>
+          <a href="">&nbsp;PORTFOLIO&nbsp;</a>
+          <a href="">CONTACT</a>
+        </nav>
+      </div>
       
-          <!-- LOGO -->
-          <div class="brand">
-            <a href="">IAMDYT</a>
-          </div>
-      
-          <!-- NAVBAR -->
-          <div class="menu-box" id="mainNav1">
-            <!-- CLOSE BUTTON | MOBILE-->
-            <div class="menu-close">
-              <i class="fa fa-close"></i>
-            </div>
-      
-            <!-- MENU -->
-            <ul class="menu ml-auto">
-              <li class="nav-item "><a href="https://github.com/iamdyt" target="_blank" class="nav-link"><i class="fab fa-github"></i></a></li>
-              <li class="nav-item"><a href="https://twitter.com/iamdytz" class="nav-link " target="_blank"><i class="fab fa-twitter"></i></a></li>
-              <li class="nav-item"><a href="https://linkedin.com/in/olanlokun" target="_blank" class="nav-link"><i class="fab fa-linkedin"></i></a></li>
-              <li class="nav-item"><a href="portfolio.html" target="_blank" class="nav-link"><i class="fas fa-folder"></i></a></li>
-            </ul>
-          </div>
-      
-          <!-- TOGGLER | MOBILE -->
-          <button class="toggler bg-primary" data-nav="#mainNav1"><i class="fa fa-bars"></i></button>
-      
-        </div>
-      </nav>
-    </header>
+    </header><hr class="border-b-4">
+
+    <!-- content -->
     <main>
-        <section class="container">
-            <div class="row mt-8">
-                <div class="col-lg-8 col-md-8 col-sm-6">
-                    <p class="display-4-lg font-bold-sm ">LANRE OLANLOKUN</p>
-                    <p class="lead cnt text-justify">I am a freelance software developer  based in Lagos, Nigeria, my passion for technology has led me to build diverse solutions for clients  at home and abroad. </p>
-                    <p class="cnt text-justify">I have the skills and capabilities to make your project a success.</p>
-                    <p class="lead  cnt text-justify"> On the Front-End, I build Intuitive and Appealing user interfaces using <span class="font-bold ">HTML5, CSS, Adobe-XD, VUEJS, BOOTSTRAP & BUTTERCAKE</span> and uses <span class="font-bold"> EXPRESSJS, ADONISJS/TYPESCRIPT</span> at the Backend.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6">
-                    <img src="svgs/author.jpg" width="" alt="" class="shadow img-fluid img-rounded">
-                </div>
-            </div>
-            <div class="row mt-2">
-                <div class="col-12">
-                    <p class="display-4-lg">CONTACTS</p> 
-                    <p class="lead cnt">I'm currently available for full-time/part-time job or contractual work and can reached at the below email address <br>
-                    <span class="h3-lg">olanlokunlanre@gmail.com</span></p>
-                   
-                </div>
-            </div>
-           
-        </section>
+      <div>
+        <h5 class="text-center text-2xl mt-6">I am a Software Developer, I build stuffs that work on Computer,<br> Mobile Phone and the Internet.</h5>
+      </div>
+      <!-- Specialization -->
+      <div class="text-center lg:text-left lg:ml-64 lg:pl-20">
+        <div class="mt-8 ">
+          <div><p class="text-xl lg:text-2xl"> <i class="fa text-green-700 fa-check-circle"></i>&nbsp; I'm a backend developer &emsp;</p></div>
+          <p class="ml-20">PHP, Python/Django/Flask, Node.js/Express, and SQL.</p>
+        </div>
+        
+
+        <div class="mt-8 ">
+          <div><p class="text-xl lg:text-2xl"><i class="fa text-green-700 fa-check-circle"></i>&nbsp; ...and a front-end developer</p></div>
+          <p class="ml-20">HTML, JavaScript, and CSS(BOOTSTRAP, MATERIALIZE,TAILWIND)</p>
+        </div>
+        
+
+        <div class="mt-8 ">
+          <div><p class="text-xl lg:text-2xl"><i class="fa text-yellow-700 fa-plus-circle"></i> &nbsp; If you want to be dramatics </p></div>
+          <p class="ml-20">Full-Stack Web Developer, Polyglot</p>
+        </div>
+      
+
+        <div class="mt-8">
+          <div><p class="text-xl lg:text-2xl"><i class="text-red-700 fa fa-minus-circle"></i> &nbsp; What I'm really not &emsp; &emsp;&emsp; </p></div>
+          <p class="ml-20">Engineer, Code Poet, Rockstar</p>
+        </div>
+      </div>
     </main>
     <footer>
-      <div class="container">
-          <hr style="border: 0.5px solid #005062;" class="">
-        <div class="row">
-          
-              <span class="cnt">&copy; iamdyt 2020</span>
-              <span class="cnt ml-auto">Floating Point Systems Inc.</span>
-          
-
-        </div>
-          
-      </div>
-     
+      <p class="text-center mt-12 text-xl">Lagos, Nigeria</p>
     </footer>
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="styles/dist/js/butterCake.min.js"></script>
-    <script src="styles/dist/js/scrollSpy.js"></script>
-    <script src="styles/dist/js/dropdown.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
 </body>
 </html>
